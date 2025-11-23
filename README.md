@@ -26,18 +26,11 @@ python -m venv .venv
 
 .\.venv\Scripts\Activate.ps1
 
-
-macOS / Linux
-
-python -m venv .venv
-
-source .venv/bin/activate
-
 Install the libraries directly:
 
 pip install pandas matplotlib
 
-How to Run
+# How to Run
 
 From the project root:
 
@@ -49,7 +42,7 @@ python main.py
 
 This starts the CLI and you’ll see a simple text menu (exact wording may differ), e.g.:
 
-Finance Tracker
+# Finance Tracker
 
 1) Add transaction
    
